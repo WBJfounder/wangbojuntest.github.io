@@ -30,6 +30,8 @@ function flashChecker() {
   console.log(!fls.f)
   if(!fls.f) {   
     if(confirm("您未配置浏览器flash插件功能，请点击确定查看配置方法（点击取消下载flash插件！）")) {   
-      window.location.href = "https://docs.qq.com/doc/DVVlyWE9id1BHaEVZ";   
+      window.location.href = "https://wbjfounder.github.io/wangbojun.github.io";   
     }   
-  }   
+  }else{
+     alert("正常使用flash");
+}   
